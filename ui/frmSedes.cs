@@ -76,7 +76,7 @@ namespace appPlanillas_202320.ui
 
     private void txtBuscar_TextChanged(object sender, EventArgs e)
     {
-
+      dtRegistros.DefaultView.RowFilter = string.Format( "Detalle like '%{0}%'", txtBuscar.Text );
     }
 
     private void cboDepartamento_SelectedIndexChanged(object sender, EventArgs e)
