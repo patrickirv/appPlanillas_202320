@@ -6,9 +6,9 @@ namespace appPlanillas_202320.ui
 {
   public partial class frmSedes : Form
   {
-    bean.Sede sede        = new bean.Sede();
+    bean.Sede    sede     = new bean.Sede();
     dao.SedesDAO sedesDAO = new dao.SedesDAO();
-    util.Util util        = new util.Util();
+    util.Util    util     = new util.Util();
 
     DataTable dtRegistros;
     bool  bHayRegistros;
